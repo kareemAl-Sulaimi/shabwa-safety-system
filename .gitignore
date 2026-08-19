@@ -1,0 +1,52 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+
+backend/venv/
+venv/
+.env
+.env.*
+
+# Python test / tooling caches
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node / React
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Environment and secrets
+
+*.env
+*.env.*
+!.env.example
+
+# IDE / Editor
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Operating system
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Temporary files
+
+*.tmp
+*.temp
