@@ -57,12 +57,12 @@ async def get_db():
 
 async def init_db() -> None:
     """Create database tables if they do not already exist."""
-    print("🔄 Creating tables...")
+    print("Creating tables...")
 
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
 
-    print("✅ Tables created successfully")
+    print("Tables created successfully")
 
 
 # ---------------------------------------------------------
